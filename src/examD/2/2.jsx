@@ -10,8 +10,11 @@ function ConfirmButton(props) {
 
     return (
         // 본인이 작성하라
-
-
+        <>
+        <button onClick={handle}>
+            {isChecked ? <span style={{color: "blue"}}>확인됨</span> : "확인하기"}
+        </button>
+        </>
     );
 }
 

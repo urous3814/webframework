@@ -22,6 +22,8 @@ function Accommodate(props) {
             <button onClick={decreaseCount}>퇴장</button>
             {/*본인이 작성하라*/}
 
+            {count != 0 ? <p>사람 있음</p> : <p>사람 없음</p>}
+
             
         </div>
     );

@@ -5,7 +5,7 @@ function Clock(props) {
     // second = 1; // Error : Assignment to constant variable.
     useEffect( 
       /*본인이 작성하라*/
-
+      () => {setSecond(7)}, []
     );
 
     return (
